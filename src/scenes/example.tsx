@@ -4,5 +4,5 @@ import {waitFor} from '@motion-canvas/core';
 export default makeScene2D(function* (view) {
   // Create your animations here
 
-  yield* waitFor(5);
+  yield* waitFor(0);
 });
